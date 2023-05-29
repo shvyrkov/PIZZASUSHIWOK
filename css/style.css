@@ -1,0 +1,55 @@
+header > h1 {
+    color: darkgreen;
+    background-color: orange;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    max-width: 1400px;
+    height: 100%; /* 100% от блока, в котором он находится. Здесь это header { height: 100px; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+}
+.page {
+    color: navy;
+    background-color: lightcyan;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.img_big {
+    width: 400px;
+    height: 400px;
+}
+
+.category {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+}
+
+.product {
+    width: 25%;
+    margin: 20px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.invalid {
+    color: darkred;
+    border: 1px solid black;
+    background-color: lightsalmon;
+    text-align: center;
+}
